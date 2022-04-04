@@ -19,3 +19,4 @@ function toFreud(string) {
     string = string.join(' ');
     return string;
   }
+
