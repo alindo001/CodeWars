@@ -15,8 +15,8 @@ function betterThanAverage(classPoints, yourPoints) {
           sum += classPoints[i]
           }
     let average = sum / classPoints.length    //takes sum and divides
-    if(yourPoints > average){ 
-      return true
+    if(yourPoints > average){                 //conditional for return
+      return true 
       
     }else{
       return false
