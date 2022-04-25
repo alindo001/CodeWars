@@ -14,3 +14,5 @@ function binToDec(bin){
     }
     return result;
   }
+
+  //function
