@@ -13,3 +13,15 @@ Examples:
 
 
 
+function dontGiveMeFive(start, end){
+    count = 0
+      for(i = start; i <= end; i++){
+          if (/5/.test(i)==true){
+            
+
+          }else{
+             count ++ 
+          }
+      }
+  }
+
