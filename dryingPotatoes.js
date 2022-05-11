@@ -25,8 +25,9 @@
 
 
 function potatoes(p0, w0, p1) {
-    w1 = 0
-    waterContent = (.01 * p0) * w0
-    return w1
-
-}
+    var dryMatter, wDry, w1;
+    dryMatter = 100 - p0;
+    wDry = (w0*dryMatter)/100;
+    w1 = (100*wDry)/(100-p1);
+    return Math.floor(w1);
+    }
