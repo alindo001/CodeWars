@@ -22,3 +22,8 @@
 
 // Example:
 // potatoes(99, 100, 98) --> 50
+
+
+function potatoes(p0, w0, p1) {
+    // your code
+}
