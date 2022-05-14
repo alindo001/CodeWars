@@ -20,4 +20,4 @@ function howMuchWater(water, load, clothes){
            return Math.round(water * Math.pow(1.1,(clothes-load))*100)/100;
           }
       }
-  }
+  
