@@ -10,5 +10,14 @@
 
 
 function howMuchWater(water, load, clothes){
-  
+    function howMuchWater(water, load, clothes)
+        if(clothes >= 2 * load){
+          return 'Too much clothes';
+        } else if(clothes < load){
+          return 'Not enough clothes';
+        }   else {
+             //10% mas
+           return Math.round(water * Math.pow(1.1,(clothes-load))*100)/100;
+          }
+      }
   }
