@@ -4,7 +4,7 @@
 
 
 function squareSum(numbers){
-    return numbers.reduce((s,v) => s + v * v, 0);
+    return numbers.reduce((s,v) => s + v * v, 0);  //reduce method
   }
 
-console.log(squareSum([1,2,2]))
+console.log(squareSum([1,2,2]))  //tests for cases
