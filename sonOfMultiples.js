@@ -11,4 +11,6 @@
 // sumMul(4, -7)  ==> "INVALID"
 
 
-
+function sumMul(n,m){
+    //your idea here
+    }
