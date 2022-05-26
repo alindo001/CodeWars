@@ -14,19 +14,16 @@
 
 function howMuchILoveYou(nbPetals) {
     var muchLoves = [
-      'I love you',
-      'a little',
-      'a lot',
+      'I love you',           // 1,7,13,19,25,31.37
+      'a little',             // 2,8,14,20,26,32,38
+      'a lot',                // 3,9,15,21,27,33,39
       'passionately',
       'madly',
       'not at all'
     ];
     return muchLoves[(nbPetals - 1) % muchLoves.length];
 }
-// 1,7,13,19,25,31.37
-// 2,8,14,20,26,32,38
-// 3,9,15,21,27,33,39
-// 4,10,16,22,28,34,40
+
 
 
 console.log(howMuchILoveYou(1))
