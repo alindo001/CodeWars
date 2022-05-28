@@ -8,3 +8,12 @@
   
 // As you can see, the lists are cascading; ie, they overlap, but never out of order.
 
+function eachCons(array, n) {
+    let res = [];
+    
+    for(let i = 0; i < array.length; i++){
+      res.push(array.slice(i,i + n));
+    }
+    
+    return res.filter(e => e.length === n);
+  }
