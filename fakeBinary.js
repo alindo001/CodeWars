@@ -3,5 +3,8 @@
 // Note: input will never be an empty string
 
 function fakeBin(x){
-
+    function fakeBin(x) {
+        return x.replace(/\d/g, d => d < 5 ? 0 : 1);
+      }
+    
 }
