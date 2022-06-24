@@ -23,5 +23,5 @@
 // After placing signs and brackets, the Maximum value obtained from the expression (1+2) * 3 = 9.
 
 function expressionMatter(a, b, c) {
-    return // highest achievable result
-  }
+  return Math.max(a+b+c, a*b*c, (a+b)*c, a*(b+c));
+}
