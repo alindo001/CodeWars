@@ -21,3 +21,9 @@
 // 3 French hens, 
 // 2 turtle doves and 
 // a partridge in a pear tree.
+
+
+var comparator = function(a,b) {
+    // Your code here
+    return 0
+  }
