@@ -9,3 +9,9 @@
 // O is misinterpreted as 0
 // I is misinterpreted as 1
 // The test cases contain numbers only by mistake.
+
+function correct(string) {
+    return string.replace(/0/g, "O")
+                 .replace(/5/g, "S")
+                 .replace(/1/g, "I");
+}
