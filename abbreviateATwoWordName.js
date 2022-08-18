@@ -15,4 +15,4 @@ function abbrevName(name) {
 
 }
 
-console.log(abbrevName("Sam Colt"))
+console.log(abbrevName("Sam Smith"))
