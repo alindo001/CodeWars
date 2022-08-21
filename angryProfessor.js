@@ -49,3 +49,5 @@
 // For the first test case, . The professor wants at least  students in attendance, but only  have arrived on time ( and ) so the class is cancelled.
 
 // For the second test case, . The professor wants at least  students in attendance, and there are  who arrived on time ( and ). The class is not cancelled.
+
+console.log("Test!!!!!!!!!!!!111")
