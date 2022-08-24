@@ -18,3 +18,18 @@
 
 // A speed of 1, and a roadmap of '___________' should return False because friction would stop the ball after 1 distance
 
+function ballTest(s, r) {
+    let travel = 0;
+    let distance = 0;
+    while (true) {
+      travel += s;
+      if (travel >= r.length) return true;
+      s -= 1 + r.slice(distance, travel).split('').filter((x) => x == 'x').length;
+      distance = travel;
+      if (s <= 0) return false;
+    }
+  }
+
+
+  console.log(ballTest(10,"___x___x___x"))
+  console.log(ballTest(2,"___x___x___x"))
