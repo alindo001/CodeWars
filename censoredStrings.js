@@ -13,5 +13,20 @@
 
 
 function uncensor(infected, discovered) {
-    return null;
+    let discoveredIndex = 0
+    uncensoredString = []
+    infected = infected.split("").forEach(el => {
+        if(el==="*"){
+            uncensoredString.push(discovered[discoveredIndex])
+            discoveredIndex ++
+        }else{
+            uncensoredString.push(el)
+        }
+    })
+    return uncensoredString.join("")
+    
+
   }
+
+
+  console.log(uncensor("*h*s *s v*ry *tr*ng*", "Tiiesae"))
