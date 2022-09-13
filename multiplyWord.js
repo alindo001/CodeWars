@@ -16,11 +16,7 @@
 // Simple. Good luck.
 
 function modifyMultiply (str,loc,num) {
-    
-    const newArr = str.split(" ")[loc]
-    return newArr * 5
-
-
-    } 
+    return Array(num).fill(str.split(' ')[loc]).join('-')
+  } 
 
     console.log(modifyMultiply('This is a string',1,5))
