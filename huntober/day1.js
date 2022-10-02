@@ -18,4 +18,5 @@ function convert(string){
 return correctedArray.join('')
 }
 
+console.log(convert("e!!Igv)t5lltBcvbdeDH3dVw!OOtI#Aa.ZMDu7WYpP^VVjDc4I50iv#ylhgmQfs"))
 console.log(convert("1T'5 N1C3 T0 5AY H3770."))
