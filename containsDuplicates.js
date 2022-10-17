@@ -22,11 +22,32 @@
 // -109 <= nums[i] <= 109
 
 
+// var containsDuplicate = function(nums) {
+//     let set = new Set([...nums])
+//     if (set.size !== nums.length){
+//         return true
+//     }else{
+//         return false
+//     }
+// };
+
+//redo answer
+
+
+
+
+
+
 var containsDuplicate = function(nums) {
     let set = new Set([...nums])
-    if (set.size !== nums.length){
-        return true
-    }else{
-        return false
-    }
-};
+    
+    set.size !== nums.length ? true : false
+
+}
+
+
+
+
+
+
+
